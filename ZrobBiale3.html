@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src='script3.js'></script>
+	<link rel='stylesheet' type='text/css' href='style3.css' />
+</head>
+
+<body>
+
+
+	<h2>Zrób Żółte!</h2>
+	<p>W tej grze należy doprowadzić do stanu, w którym wszystkie pola będą koloru żółtego.</p>
+	<p>Ruch polega na zamianie koloru wybranego pola oraz pól sąsiednich.</p>
+	
+	
+	<button type="button" onclick="newGame()">Nowa Gra</button>
+	<button type="button" onclick="solveItFake()">Rozwiąż</button>
+	<button type="button" onclick="solveIt()">No dobra, pokaż</button>
+	<button type="button" onclick="history.go(0)">Odśwież</button>
+
+	<p id="board">Tu będzie Plansza</p>
+
+
+	<p id='test' style="display: visible">Właściwości pola.</p>
+
+	<p id='foot'></p>
+
+
+	<script>boardGenerate()</script>
+
+</body>
+</html>

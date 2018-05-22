@@ -1,0 +1,60 @@
+body
+{
+	text-align:	center;
+	background:	#EECCFF;
+	<!--color:	#E1F1C0;!-->
+}
+
+table, td 
+{
+	text-align:	center;
+	margin:		auto;
+	background:	#BE57EC;
+}
+table
+{
+	 border:	solid black 1px;
+}
+td
+{
+	height: 4vw;
+	width:	4vw;
+	transition:	all 500ms;
+	border:	outset grey 0.5vw;
+}
+td:hover
+{
+	border: inset grey 0.5vw;
+}
+
+
+.color1
+{
+	background-color: Yellow;
+}
+.color2
+{
+	background-color: lightgreen;
+}
+
+.color1sol
+{
+	height: 4vw;
+	width:	4vw;
+	transition:	all 500ms;
+	border:	outset red 0.5vw;
+	background-color:	Yellow;
+}
+.color2sol
+{
+	height: 4vw;
+	width:	4vw;
+	transition:	all 500ms;
+	border:	outset red 0.5vw;
+	background-color:	lightgreen;
+}
+
+.color1sol:hover, .color2sol:hover
+{
+	border: inset red 0.5vw;
+}
